@@ -1,0 +1,128 @@
+
+div.topUser {
+  width: 100%;
+  background-color: white;
+}
+div.bottomUser {
+  width: 50%;
+
+  background-color: white;
+  color: black;
+  text-align: center;
+  float: left;
+}
+div.left {
+  width: 50%;
+  padding-right: 2%;
+  padding-left: 2%;
+  height: auto;
+  background-color: transparent;
+  float: left;
+}
+div.right {
+  width: 50%;
+
+  background-color: white;
+  float: left;
+  color: black;
+}
+#imgTop {
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+  filter: grayscale(1);
+} 
+
+/* Makes the image fit in the container */
+.quate {
+  font-size: 20px;
+  font-style: italic;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  position: relative;
+  width: 50%;
+  line-height: 2;
+  color: black;
+  text-align: center;
+  float: left;
+}
+
+/* Makes the webpage mobile friendly */
+@media screen and (max-width: 600px) {
+  div.left {
+    width: 100%;
+  }
+  div.quate {
+    width: 100%;
+    right: 0;
+    position: relative;
+  }
+  div.right {
+    width: 100%;
+    position: relative;
+  }
+  div.bottomUser {
+    width: 100%;
+    position: relative;
+  }
+}
+
+/* skill bars /*
+
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: white; /* Grey background */
+}
+#isacSkills {
+  text-align: center;
+}
+.skills {
+  text-align: right; /* Right-align text */
+  /* padding-top: 8px;  Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.css {
+  width: 80%;
+  background-color: goldenrod;
+  border-radius: 8px;
+}
+.js {
+  width: 65%;
+  background-color: silver;
+  border-radius: 8px;
+} 
+.php {
+  width: 60%;
+  background-color: grey;
+  border-radius: 8px;
+}
+
+
+/* the button to pause unpause slideshow */
+#change-image {
+  width: 100%;
+  position: relative;
+  float: left;
+  background: goldenrod;
+  color: white;
+  border: none;
+  padding: 2%;
+  margin-bottom: 1%;
+  cursor: pointer;
+  border: 1px solid #fff;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#change-image:hover {
+  background: white;
+  color: black;
+  border: 1px solid goldenrod;
+  transition: 0.4s;
+}

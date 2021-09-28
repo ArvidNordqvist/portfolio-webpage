@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  overflow: hidden;
+}
+
+#content {
+  
+  border: 1px solid goldenrod;
+}
+
+img{
+  filter:grayscale(0);
+  border: 1px solid goldenrod;
+  width: 100%;
+
+}
+
+#projects {
+  font-family: gruppo;
+  
+}
+
+th {
+  font-size: large;
+}
+
+td {
+  font-weight: bold;
+ 
+}
+
+@media screen and (max-width: 768px) {
+    #content{
+      display: flex;
+    }
+
+}
